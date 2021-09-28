@@ -1,0 +1,16 @@
+ENTITA CAR
+
+NOME TABELLA: CARS
+
+id-PK(NOT-NULL, UNIQUE, AUTO_INCREMENT)
+model - VARCHAR(50) - NOT_NULL
+doors - TINYINT - NOT_NULL - DEFAULT(1)
+driving_wheels - TINYINT - NOT_NULL - DEFAULT(2)
+primary_color - VARCHAR(50) - NOT_NULL
+secondary_color - VARCHAR(50)
+plate - TINYINT
+brand - VARCHAR(50) - NOT_NULL
+kms - MEDIUMINT - DEFAULT(0)
+country - VARCHAR(50)
+seats - TINYINT - NOT_NULL - DEFAULT(1)
+in_stock - MEDIUMINT - NOT_NULL
